@@ -1,0 +1,49 @@
+{
+  "name": "simple-gulp",
+  "version": "1.0.0",
+  "description": "Simple gulp package for scss and js compilation, including browser sync",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "browser-sync": "^2.26.3",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-size": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "run-sequence": "^2.2.1"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules && npm cache clean",
+    "reinstall": "npm run clean && npm install",
+    "dev": "gulp dev",
+    "prod": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamianRK/simple-gulp.git"
+  },
+  "author": "Damian Bogdanowicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamianRK/simple-gulp/issues"
+  },
+  "homepage": "https://github.com/DamianRK/simple-gulp#readme"
+}

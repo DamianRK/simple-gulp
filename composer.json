@@ -1,0 +1,5 @@
+{
+  "name": "simple-gulp",
+  "version": "1.0.0",
+  "description": "Simple gulp package for scss and js compilation, including browser sync"
+}
